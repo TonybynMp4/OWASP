@@ -3,7 +3,7 @@
         $nav = [
             'Accueil' => BASE_PATH.'/',
             'Catalogue' => BASE_PATH.'/catalog',
-            'À propos' => BASE_PATH.'/about'
+            'Contact' => BASE_PATH.'/contact'
         ];
         foreach ($nav as $key => $value) {
             echo '<a class="nav_button" href="' . $value . '">' . $key . '</a>';

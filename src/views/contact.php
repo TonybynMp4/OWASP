@@ -5,7 +5,7 @@
 
 <main>
     <section>
-        <h2>Contact';</h2>
+        <h2>Contact</h2>
         <p>
             TODO: Ajouter un formulaire de contact
         </p>
