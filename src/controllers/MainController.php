@@ -9,10 +9,10 @@ class MainController
         $this->render('home');
     }
 
-    // Page "About"
-    public function about()
+    // Page "Contact"
+    public function contact()
     {
-        $this->render('about');
+        $this->render('contact');
     }
 
     // Page 404
