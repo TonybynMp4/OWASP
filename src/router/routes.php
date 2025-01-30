@@ -1,7 +1,7 @@
 <?php
 
 require_once __DIR__ . '/../controllers/MainController.php';
-
+require_once __DIR__ . '/../controllers/CatalogController.php';
 
 $router = new AltoRouter();
 
@@ -12,7 +12,10 @@ $router->setBasePath($basePath);
 
 // Routes
 $router->map('GET', '/', 'MainController#home', 'home');
+$router->map('GET', '/contact', 'MainController#contact', 'contact');
 
+$router->map('GET', '/catalog', 'CatalogController#catalog', 'catalog');
+$router->map('GET', '/product', 'CatalogController#product', 'product');
 
 // Retourne l'objet router
 return $router;
