@@ -6,7 +6,7 @@ class MainController
     // Page d'accueil
     public function home()
     {
-        $this->render('home', $data);
+        $this->render('home');
     }
 
     // Page "About"
