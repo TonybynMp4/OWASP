@@ -6,7 +6,7 @@ require __DIR__ . '/partials/header.php'; ?>
     <section>
         <h2>Bienvenue!</h2>
         <p>
-            Bienvenue sur PixelParts, votre référence en matière de pièces informatiques!
+            Bienvenue sur ce site d'E-commerce!
         </p>
     </section>
 </main>

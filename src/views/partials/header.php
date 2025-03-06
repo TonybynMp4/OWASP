@@ -17,11 +17,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        PixelParts <?php if (isset($title)) { echo ' | ' . $title; } ?>
+        OWASP <?php if (isset($title)) { echo ' | ' . $title; } ?>
     </title>
     <link rel="stylesheet" href="<?= BASE_PATH; ?>/css/style.css">
     <script src="<?= BASE_PATH; ?>/js/header.js" defer></script>
-    <link rel="icon" href="<?= BASE_PATH; ?>/images/Pixelparts.png">
     <?php
         if (isset($styles) && is_array($styles)) {
             foreach ($styles as $style) {
@@ -40,9 +39,8 @@
 <body>
     <header>
         <a href="<?= BASE_PATH; ?>/">
-            <img src="<?= BASE_PATH; ?>/images/Pixelparts.png" alt="Logo du site">
             <h1>
-                PixelParts
+                OWASP
             </h1>
         </a>
 
